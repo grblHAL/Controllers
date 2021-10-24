@@ -21,6 +21,7 @@
 | [Nucleo F411RE](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) with [CNC Breakout Nucleo64](https://github.com/terjeio/CNC_Breakout_Nucleo64)                                          | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
 | [Nucleo F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) with [CNC Breakout Nucleo64](https://github.com/terjeio/CNC_Breakout_Nucleo64)                                          | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
 | [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) on PicoCNC                                                                                                                      | [RP2040](https://github.com/grblHAL/RP2040)           |
+| [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) on [PicoBOB](https://github.com/Expatria-Technologies/PicoBOB)                                                                  | [RP2040](https://github.com/grblHAL/RP2040)           |
 | [Protoneer v3](https://blog.protoneer.co.nz/arduino-cnc-shield/) on ESPDuino                                                                                                                       | [ESP32](https://github.com/grblHAL/ESP32)             |
 | [Ramps 1.6](https://reprap.world/electronics/development_boards/radds_v1_6_pre_assembled_3d_printer_board/)                                                                                        | [SAM3X8E](https://github.com/grblHAL/SAM3X8E)         |
 | [Smoothieboard](https://smoothieware.org/smoothieboard)                                                                                                                                            | [LPC176x](https://github.com/grblHAL/LPC176x)         |
@@ -30,7 +31,7 @@
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [T41U5XBB](https://github.com/phil-barrett/grbl-teensy-4)                                                                                | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [GRBLHAL2000](https://github.com/Expatria-Technologies/grblhal_2000_PrintNC)                                                             | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [WeAct Blackpill](https://github.com/WeActTC/MiniF4-STM32F4x1) on a [Minimal breakout](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL)                                 | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
-| Red/BluePill on a [CNC3040](https://github.com/shaise/GrblCNC)                                                                                                                                     | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                       | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
+| Red/BluePill on a [CNC3040](https://github.com/shaise/GrblCNC)                                                                                                                                     | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                                  | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                       | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
 
 _NOTE:_ This list is work in progress and I have not tested many of these controllers myself. A status for each should be added based on user feedback. I plan to add capabilities too: max number of axes, plugin support etc...
 
@@ -39,4 +40,4 @@ _NOTE:_ This list is work in progress and I have not tested many of these contro
 Excel tables to markdown done with [thisDaveJ](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) web-based utility.
 
 ---
-2021-10-10
+2021-10-24
