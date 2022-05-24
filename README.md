@@ -31,7 +31,8 @@
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [T41U5XBB](https://github.com/phil-barrett/grbl-teensy-4)                                                                                | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [GRBLHAL2000](https://github.com/Expatria-Technologies/grblhal_2000_PrintNC)                                                             | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [WeAct Blackpill](https://github.com/WeActTC/MiniF4-STM32F4x1) on a [Minimal breakout](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL)                                 | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
-| Red/BluePill on a [CNC3040](https://github.com/shaise/GrblCNC)                                                                                                                                     | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                                  | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                       | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
+| Red/BluePill on a [CNC3040](https://github.com/shaise/GrblCNC)                                                                                                                                     | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
+| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                               | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                                  | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                       | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
 
 _NOTE:_ This list is work in progress and I have not tested many of these controllers myself. A status for each should be added based on user feedback. I plan to add capabilities too: max number of axes, plugin support etc...
 
@@ -40,4 +41,4 @@ _NOTE:_ This list is work in progress and I have not tested many of these contro
 Excel tables to markdown done with [thisDaveJ](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) web-based utility.
 
 ---
-2021-10-24
+2021-03-09
