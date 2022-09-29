@@ -24,6 +24,7 @@
 | [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) on [PicoBOB](https://github.com/Expatria-Technologies/PicoBOB)                                                                  | [RP2040](https://github.com/grblHAL/RP2040)           |
 | [Protoneer v3](https://blog.protoneer.co.nz/arduino-cnc-shield/) on ESPDuino                                                                                                                       | [ESP32](https://github.com/grblHAL/ESP32)             |
 | [Ramps 1.6](https://reprap.world/electronics/development_boards/radds_v1_6_pre_assembled_3d_printer_board/)                                                                                        | [SAM3X8E](https://github.com/grblHAL/SAM3X8E)         |
+| [SMART Ramps](https://reprap.org/wiki/SMART_RAMPS)                                                                                                                                                 | [SAM3X8E](https://github.com/grblHAL/SAM3X8E)         |
 | [Smoothieboard](https://smoothieware.org/smoothieboard)                                                                                                                                            | [LPC176x](https://github.com/grblHAL/LPC176x)         |
 | [Sourcerabbit](https://www.sourcerabbit.com/)                                                                                                                                                      | [ESP32](https://github.com/grblHAL/ESP32)             |
 | [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) on [T40X101](https://github.com/phil-barrett/grbl-teensy-4)                                                                                 | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
@@ -32,7 +33,7 @@
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [GRBLHAL2000](https://github.com/Expatria-Technologies/grblhal_2000_PrintNC)                                                             | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [WeAct Blackpill](https://github.com/WeActTC/MiniF4-STM32F4x1) on a [Minimal breakout](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL)                                 | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
 | Red/BluePill on a [CNC3040](https://github.com/shaise/GrblCNC)                                                                                                                                     | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
-| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                               | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                                  | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |                                                                                                                       | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
+| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |
 
 _NOTE:_ This list is work in progress and I have not tested many of these controllers myself. A status for each should be added based on user feedback. I plan to add capabilities too: max number of axes, plugin support etc...
 
@@ -41,4 +42,4 @@ _NOTE:_ This list is work in progress and I have not tested many of these contro
 Excel tables to markdown done with [thisDaveJ](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) web-based utility.
 
 ---
-2021-03-09
+2022-09-29
