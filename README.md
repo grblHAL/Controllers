@@ -15,6 +15,7 @@
 | [EK-TM4C1294XL LaunchPad](https://www.ti.com/tool/EK-TM4C1294XL#) with [CNC Boosterpack](https://github.com/terjeio/CNC_Boosterpack)                                                               | [TM4C1294](https://github.com/grblHAL/TM4C1294)       |
 | [Flexi-HAL](https://github.com/Expatria-Technologies/Flexi-HAL)                                                                                                                                    | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
 | [Fysetc E4](https://www.fysetc.com/products/fysetc-e4-board-with-built-in-wi-fi-and-bluetooth-4-pcs-tmc2209-240mhz-16m-flash-3d-printer-control-board-based-for-3d-printer?variant=37558333341871) | [ESP32](https://github.com/grblHAL/ESP32)             |
+| [Mach 3 USB BOB - BSMCE04U-PP](https://drufelcnc.com/?c=controllers&p=BSMCE04U)<sup>1</sup>                                                                                                        | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
 | [MKS SBASE v1.3](https://github.com/makerbase-mks/MKS-SBASE)                                                                                                                                       | [LPC176x](https://github.com/grblHAL/LPC176x)         |
 | [MSP430F5529 LaunchPad](https://www.ti.com/tool/MSP-EXP430F5529LP) with [CNC Boosterpack](https://github.com/terjeio/CNC_Boosterpack)                                                              | [MSP430F5529](https://github.com/grblHAL/MSP430F5529) |
 | [MSP-EXP432E401Y LaunchPad](http://www.ti.com/tool/MSP-EXP432E401Y#) with  [CNC Boosterpack](https://github.com/terjeio/CNC_Boosterpack)                                                           | [MSP432E401Y](https://github.com/grblHAL/MSP432E401Y) |
@@ -36,13 +37,15 @@
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [T41BB5X_PRO](https://github.com/phil-barrett/grbl-teensy-4)                                                                             | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [T41U5XBB](https://github.com/phil-barrett/grbl-teensy-4)                                                                                | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [WeAct Blackpill](https://github.com/WeActTC/MiniF4-STM32F4x1) on a [Minimal breakout](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL)                                 | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
-| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                                 | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |
+| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                                | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                                 | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |
 
 _NOTE:_ This list is work in progress and I have not tested many of these controllers myself. A status for each should be added based on user feedback. I plan to add capabilities too: max number of axes, plugin support etc...
+
+<sup>1</sup> A version with the programming header brought out is required, it is near the USB port and may or may not be soldered in.
 
 ---
 
 Excel tables to markdown done with [thisDaveJ](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) web-based utility.
 
 ---
-2023-02-05
+2023-05-04
