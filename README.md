@@ -15,7 +15,7 @@
 | [EK-TM4C1294XL LaunchPad](https://www.ti.com/tool/EK-TM4C1294XL#) with [CNC Boosterpack](https://github.com/terjeio/CNC_Boosterpack)                                                               | [TM4C1294](https://github.com/grblHAL/TM4C1294)       |
 | [Flexi-HAL](https://github.com/Expatria-Technologies/Flexi-HAL)                                                                                                                                    | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
 | [Fysetc E4](https://www.fysetc.com/products/fysetc-e4-board-with-built-in-wi-fi-and-bluetooth-4-pcs-tmc2209-240mhz-16m-flash-3d-printer-control-board-based-for-3d-printer?variant=37558333341871) | [ESP32](https://github.com/grblHAL/ESP32)             |
-| [Mach 3 USB BOB - BSMCE04U-PP](https://drufelcnc.com/?c=controllers&p=BSMCE04U)<sup>1</sup>                                                                                                        | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
+| [Mach 3 USB BOB - BSMCE04U-PP](https://embeddedtronicsblog.wordpress.com/2023/05/17/grbl-running-on-the-4-axis-bsmce04-pp/)<sup>1</sup>                                                            | [STM32F1xx](https://github.com/grblHAL/STM32F1xx)     |
 | [MKS SBASE v1.3](https://github.com/makerbase-mks/MKS-SBASE)                                                                                                                                       | [LPC176x](https://github.com/grblHAL/LPC176x)         |
 | [MSP430F5529 LaunchPad](https://www.ti.com/tool/MSP-EXP430F5529LP) with [CNC Boosterpack](https://github.com/terjeio/CNC_Boosterpack)                                                              | [MSP430F5529](https://github.com/grblHAL/MSP430F5529) |
 | [MSP-EXP432E401Y LaunchPad](http://www.ti.com/tool/MSP-EXP432E401Y#) with  [CNC Boosterpack](https://github.com/terjeio/CNC_Boosterpack)                                                           | [MSP432E401Y](https://github.com/grblHAL/MSP432E401Y) |
@@ -24,7 +24,7 @@
 | [Nucleo F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) with [CNC Breakout Nucleo64](https://github.com/terjeio/CNC_Breakout_Nucleo64)                                          | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
 | [OpenBuilds BlackBox X32](https://openbuildspartstore.com/BlackBox-Motion-Control-System-X32)                                                                                                      | [ESP32](https://github.com/grblHAL/ESP32)             |
 | [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) on [PicoBOB](https://github.com/Expatria-Technologies/PicoBOB)                                                                  | [RP2040](https://github.com/grblHAL/RP2040)           |
-| [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) on PicoCNC                                                                                                                      | [RP2040](https://github.com/grblHAL/RP2040)           |
+| [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) on [PicoCNC](https://github.com/phil-barrett/PicoCNC)                                                                           | [RP2040](https://github.com/grblHAL/RP2040)           |
 | [Protoneer v3](https://blog.protoneer.co.nz/arduino-cnc-shield/) on ESPDuino                                                                                                                       | [ESP32](https://github.com/grblHAL/ESP32)             |
 | [Ramps 1.6](https://reprap.world/electronics/development_boards/radds_v1_6_pre_assembled_3d_printer_board/)                                                                                        | [SAM3X8E](https://github.com/grblHAL/SAM3X8E)         |
 | [Re-ARM board](https://www.panucatt.com/Re_ARM_for_RAMPS_p/ra1768.htm) with [Ramps 1.6](https://reprap.org/wiki/RAMPS_1.6)                                                                         | [LPC176x](https://github.com/grblHAL/LPC176x)         |
@@ -37,8 +37,7 @@
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [T41BB5X_PRO](https://github.com/phil-barrett/grbl-teensy-4)                                                                             | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) on [T41U5XBB](https://github.com/phil-barrett/grbl-teensy-4)                                                                                | [iMXRT1062](https://github.com/grblHAL/iMXRT1062)     |
 | [WeAct Blackpill](https://github.com/WeActTC/MiniF4-STM32F4x1) on a [Minimal breakout](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL)                                 | [STM32F4xx](https://github.com/grblHAL/STM32F4xx)     |
-| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                                | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |                                                                                                                                 | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |
-
+| [WeAct MiniSTM32H7xx](https://github.com/WeActTC/MiniSTM32H7xx)                                                                                                                                    | [STM32H7xx](https://github.com/dresco/STM32H7xx)      |
 _NOTE:_ This list is work in progress and I have not tested many of these controllers myself. A status for each should be added based on user feedback. I plan to add capabilities too: max number of axes, plugin support etc...
 
 <sup>1</sup> A version with the programming header brought out is required, it is near the USB port and may or may not be soldered in.
@@ -48,4 +47,4 @@ _NOTE:_ This list is work in progress and I have not tested many of these contro
 Excel tables to markdown done with [thisDaveJ](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) web-based utility.
 
 ---
-2023-05-04
+2023-07-18
